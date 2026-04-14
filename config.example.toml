@@ -1,0 +1,13 @@
+powerdns = { api_url = "http://127.0.0.1:8081", api_key = "change-me", server_id = "localhost" }
+interval_seconds = 300
+default_ttl = 300
+public_ip_url = "https://api.ipify.org?format=json"
+
+[[records]]
+zone = "example.com"
+name = "home"
+ttl = 300
+
+[[records]]
+zone = "example.com"
+name = "vpn.example.com."
